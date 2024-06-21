@@ -3,7 +3,8 @@
 ## Overview
 
 RaffleGame is a smart contract for a decentralized raffle game built on the Ethereum blockchain. This contract allows users to enter a raffle by paying an entry fee, and periodically selects a random winner using Chainlink's VRF (Verifiable Random Function) to ensure fairness. The winner receives the accumulated balance of the contract, and participants earn reward tokens.
-
+- **Raffle Contract Address**: https://sepolia.etherscan.io/address/0x2184c85423c5096695265aad381f10ac34fc4373
+- **Reward Token Contract Address**: https://sepolia.etherscan.io/token/0xFCA1Fb2f3CE1032702EC700342499dC922af6b7D
 ## Features
 
 - **Random Winner Selection**: Uses Chainlink VRF for secure and verifiable random number generation.
