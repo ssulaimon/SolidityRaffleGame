@@ -237,6 +237,7 @@ contract RaffleGame is VRFConsumerBaseV2Plus, AutomationCompatibleInterface {
         s_latestWinner = winner;
         s_players = new address payable[](0);
         s_raffleGameState = RaffleGameState.OPEN;
+        s_lastRaffleDraw = block.timestamp;
     }
 
     function claimRewardToken(uint256 _amount) public {
